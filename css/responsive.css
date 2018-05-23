@@ -1,0 +1,830 @@
+@media only screen and (max-width: 1500px) {
+    /*-------------------------------------
+              HOME PAGE 1
+    --------------------------------------*/
+    
+    .w-content .welcome .welcome-title h3 a {
+        font-size: 32px;
+    }
+    .w-content .welcome .welcome-title {
+        margin-bottom: 15px;
+    }
+    .w-content .welcome .welcome-text {
+        margin-top: 25px;
+    }
+    .welcome-text p {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .w-content .welcome {
+        padding: 3% 10% 5px 11%;
+    }
+    .btn-collection {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    /*-------------------------------------
+              HOME PAGE 1
+    --------------------------------------*/
+    
+    .header-menu .navbar-core .logo {
+        margin-right: 80px;
+    }
+    .w-content .welcome .welcome-title h3 a {
+        font-size: 28px;
+    }
+    .welcome-text p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .w-content .welcome .welcome-title {
+        margin-bottom: 15px;
+    }
+    .w-content .welcome .welcome-text {
+        margin-top: 20px;
+    }
+    .bannerV3-top .bannerV3-item-text1 {
+        left: 28%;
+    }
+    /*-------------------------------------
+              HOME PAGE 2
+    --------------------------------------*/
+    
+    .fashion-newcollec1-text h3 {
+        font-size: 30px;
+    }
+    .fashion-pd1-img .fashion-pd1-text a {
+        font-size: 48px;
+    }
+    .fashion-newcollec1-text1 a,
+    .fashion-newcollec1-text2 a {
+        font-size: 22px;
+    }
+    .fashion-pd1-img .fashion-pd1-text p {
+        letter-spacing: 3px;
+    }
+    /*-------------------------------------
+              HOME PAGE 3
+    --------------------------------------*/
+    
+    .bannerV3-coat {
+        height: 280px;
+    }
+    .w-content2 .group-right {
+        padding: 3% 5% 1% 5%
+    }
+    /*-------------------------------------
+             BLOG DETAIL
+    --------------------------------------*/
+    
+    .sidebar-box {
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    /*-------------------------------------
+              HOME PAGE 1
+    --------------------------------------*/
+    
+    .header-menu .navbar-core .s-inner {
+        position: static;
+    }
+    .header-menu .navbar-core .s-wrapper {
+        position: relative;
+    }
+    .header-menu .navbar-core .logo {
+        margin-top: 0;
+        padding: 15px 0;
+    }
+    .header-menu .navbar-core .hamburger {
+        display: block;
+        position: relative;
+        float: right;
+        margin-top: 10px;
+    }
+    .header-menu .navbar-core .nav-right {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 10000;
+        background: #fff;
+        margin: 0;
+        border-top: 1px solid #e6e6e6;
+        width: 100%;
+        display: none;
+        padding-bottom: 0;
+    }
+    .header-menu .navbar-core .nav-right:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .header-menu .navbar-core .nav-right.opened {
+        display: block;
+    }
+    .header-menu .navbar-core .u-cart {
+        padding-top: 28px;
+        padding-right: 30px;
+    }
+    .header-menu .navbar-core .u-cart .ic-cart {
+        display: inline-block;
+    }
+    .header-menu .navbar-core .navbar-main {
+        width: 100%;
+    }
+    .header-menu .navbar-core .navbar-menu {
+        border-top: 1px solid #e6e6e6;
+        margin-left: 0;
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    .header-menu .navbar-core .navbar-menu:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .header-menu .navbar-core .navbar-menu li {
+        background: #fff;
+        float: left;
+        width: 100%;
+        display: block;
+        margin: 0;
+        border-bottom: 1px solid #e6e6e6;
+        z-index: 0;
+    }
+    .header-menu .navbar-core .navbar-menu li a {
+        padding: 15px;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown.dropdown-panel {
+        position: relative;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .fa {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        display: block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .header-menu .navbar-core .navbar-menu .menu-child {
+        position: relative;
+    }
+    .header-menu .navbar-core .navbar-menu .menu-child .fa {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        display: block;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu {
+        min-width: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: none;
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        background: #fff;
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu li {
+        border-bottom: none;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu li a {
+        color: #444;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu li a:hover {
+        padding-left: 23px;
+        background: #fff;
+        color: #f25e5e;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu li a:hover i {
+        visibility: hidden;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu li:hover ul {
+        position: inherit;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .open {
+        display: block !important;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu-panel {
+        position: relative;
+        padding: 0 30px;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu-panel .dropdown-menu-panel-inner {
+        width: 100%;
+        display: block;
+        background: #fff;
+        padding: 0;
+        margin: 0;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu-panel .h-pmenu {
+        color: #444;
+        padding-top: 0;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu-panel .l-pmenu:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu-panel .l-pmenu li a {
+        color: #444;
+    }
+    .header-menu .navbar-core .navbar-menu .dropdown .dropdown-menu-panel .l-pmenu li a:hover {
+        color: #f25e5e;
+    }
+    .shop-menu1 a i {
+        visibility: hidden !important;
+    }
+    .bannerV3-top .bannerV3-item-text a {
+        font-size: 28px;
+    }
+    .bannerV3-top .bannerV3-item-text1 a {
+        font-size: 25px;
+    }
+    .product-left {
+        width: 100%;
+        float: none !important;
+    }
+    .product-right {
+        width: 100%;
+        float: none !important;
+        text-align: left;
+        margin-top: 5px;
+    }
+    .product-right a {
+        margin-right: 5px;
+        margin-left: 0;
+    }
+    .w-content .welcome {
+        padding-bottom: 3%;
+    }
+    .w-content .welcome .welcome-title h3 a {
+        font-size: 36px;
+    }
+    .w-content .welcome .welcome-text p {
+        font-size: 14px;
+    }
+    .w-content .welcome .welcome-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .w-content .welcome .welcome-text {
+        margin-top: 20px;
+        line-height: 26px;
+        text-align: center;
+    }
+    .btn-collection {
+        float: none;
+        display: block;
+        margin: 20px auto 0;
+    }
+    .w-content .w-content-left .hr-42,
+    .w-content .w-content-right .hr-42 {
+        margin: 0 auto;
+    }
+    .hr-42 {
+        border: 2px solid #f25e5e;
+    }
+    .trademark {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #footer .footer-top {
+        padding-bottom: 20px;
+    }
+    #footer .footer-mid {
+        padding-bottom: 20px;
+    }
+    .footer-desc:after {
+        margin-bottom: 15px;
+    }
+    #footer {
+        padding-top: 30px;
+    }
+    /*-------------------------------------
+              HOME PAGE 2
+    --------------------------------------*/
+    
+    .fashion-pd1-img .fashion-pd1-text p {
+        letter-spacing: 0;
+    }
+    .fashion-pd1-img .fashion-pd1-text a {
+        font-size: 37px;
+    }
+    .fashion-pd1-img .fashion-pd1-text button {
+        padding: 8px 34px;
+    }
+    /*-------------------------------------
+              HOME PAGE 3
+    --------------------------------------*/
+    
+    .header-menu .navbar-core .navbar-menu >.dropdown > .menu-color {
+        color: #414141;
+    }
+    .bannerV3-coat {
+        height: 215px;
+    }
+    .group-size1 {
+        width: 100%;
+    }
+    .w-content2 .group-left {
+        float: none;
+    }
+    .group-size2 {
+        width: 100%;
+    }
+    .group-left img {
+        width: 100%;
+    }
+    .w-content2 .group-right {
+        padding: 3% 4% 2% 4%;
+    }
+    .bannerV3-bottom-content {
+        left: 8%;
+        text-align: left;
+    }
+    /*-------------------------------------
+             PAGE 404
+    --------------------------------------*/
+    
+    .text-404 {
+        width: 100%;
+    }
+    /*-------------------------------------
+             BLOG DETAIL
+    --------------------------------------*/
+    
+    .blog-sidebar-content {
+        margin-bottom: 30px;
+    }
+    /*-------------------------------------
+              CHECK OUT
+    --------------------------------------*/
+    
+    .billingAddress {
+        padding-right: 0;
+    }
+    /*-------------------------------------
+              CONTACT
+    --------------------------------------*/
+    
+    .contact-right {
+        padding-left: 0;
+    }
+    /*-------------------------------------
+              FAQ
+    --------------------------------------*/
+    
+    .faq-support {
+        margin-top: 0;
+    }
+    /*-------------------------------------
+            SHOP DETAIL FULLWIDTH
+    --------------------------------------*/
+    
+    .detail-fullwidth .shopgird-detai-img {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .detail-fullwidth-content {
+        width: 100%;
+        float: none;
+    }
+    /*-------------------------------------
+            SHOP DETAIL SIDEBAR
+    --------------------------------------*/
+    
+    .detail-sidebar .shopgird-detai-img {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .detail-sidebar .shop-detail-content {
+        width: 100%;
+        float: none;
+    }
+    /*-------------------------------------
+            SHOPPING CART
+    --------------------------------------*/
+    
+    .shopping-cart-bottom {
+        margin-bottom: 30px;
+    }
+    .shopping-cart-sidebar .button {
+        width: inherit;
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    /*-------------------------------------
+              HOME PAGE 1
+    --------------------------------------*/
+    
+    .header-menu .navbar-menu .dropdown .dropdown-menu-panel .shop-menu1 {
+        width: 100%;
+    }
+    .header-menu .navbar-menu .dropdown .dropdown-menu-panel .shop-menu2 {
+        width: 100%;
+    }
+    .header-menu .navbar-menu .dropdown .dropdown-menu-panel .l-pmenu li {
+        width: 100%;
+    }
+    .bannerV3-coat {
+        height: auto;
+    }
+    .bannerV3-top .bannerV3-item {
+        position: inherit;
+    }
+    .bannerV3-img-left {
+        width: 100%;
+        float: none !important;
+    }
+    .bannerV3-img-left img {
+        width: 100%;
+    }
+    .bannerV3-img-right {
+        width: 100%;
+        float: none !important
+    }
+    .bannerV3-img-right img {
+        width: 100%;
+    }
+    .bannerV3-top .bannerV3-item-text1 {
+        left: 60%;
+    }
+    .bannerV3-top .container {
+        padding: 0;
+    }
+    .follow-button {
+        display: none;
+    }
+    #footer .footer-desc {
+        padding-right: 30px;
+    }
+    /*-------------------------------------
+              HOME PAGE 2
+    --------------------------------------*/
+    
+    .fashion-pd1,
+    .fashion-pd2,
+    .fashion .row,
+    .fashion .container {
+        display: block;
+    }
+    .fashion-pd2 {
+        padding-left: 0;
+    }
+    .fashion-pd1 {
+        padding-right: 0;
+    }
+    .fashion-pd1-img img,
+    .fashion-newcollec1 img,
+    .fashion-newcollec2 img {
+        margin: 0 auto;
+    }
+    .fashion-newcollec1 img {
+        padding-top: 18px;
+    }
+    .fashion-pd1-img .fashion-pd1-text a {
+        font-size: 50px
+    }
+    .fashion-pd1-img .fashion-pd1-text p {
+        letter-spacing: 5px;
+    }
+    .fashion-pd1-img .fashion-pd1-text button {
+        padding: 8px 41px;
+    }
+    /*-------------------------------------
+              HOME PAGE 3
+    --------------------------------------*/
+    
+    .bd-iconbox {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    /*-------------------------------------
+             PAGE 404
+    --------------------------------------*/
+    
+    .page-404-img {
+        max-width: 200px;
+        max-height: 90px;
+        margin-bottom: 20px;
+    }
+    /*-------------------------------------
+          BLOG DETAIL LIST
+    --------------------------------------*/
+    
+    .cate-top {
+        float: none !important;
+    }
+    .showing-results {
+        float: none !important;
+        padding-left: 10px;
+    }
+    /*-------------------------------------
+              BLOG SIDEBAR
+    --------------------------------------*/
+    
+    .blog-sidebar-gird {
+        padding-right: 0;
+    }
+    .blog-sidebar-text {
+        padding-right: 0;
+    }
+    /*-------------------------------------
+            SHOP GIRD SIDEBAR
+    --------------------------------------*/
+    
+    .dropdown-results {
+        float: none !important;
+    }
+    .gird-list {
+        float: none !important;
+    }
+    .gird-list .showing-results {
+        padding-left: 0;
+    }
+    /*-------------------------------------
+            SHOPPING CART
+    --------------------------------------*/
+    
+    .shopping-cart-content {
+        padding-right: 0;
+    }
+    .shopping-cart-shipping {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+    }
+    .shopping-cart-img {
+        display: none;
+    }
+    .shopping-cart-price {
+        display: none;
+    }
+    .shopping-cart-quantity {
+        display: none;
+    }
+    .shopping-cart-shipping {
+        margin-bottom: 20px;
+    }
+    .shopping-cart-coupon {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /*-------------------------------------
+              HOME PAGE 1
+    --------------------------------------*/
+    
+    .header-menu .navbar-core .logo {
+        margin-right: 0;
+    }
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        width: 35px;
+        height: 4px;
+    }
+    .hamburger--collapse .hamburger-inner {
+        bottom: 5px;
+    }
+    .header-menu .navbar-core .u-cart {
+        padding-right: 10px;
+    }
+    .header-menu .navbar-core .logo img {
+        width: 87px;
+    }
+    .header-menu .navbar-core .u-cart .ic-enjoy a,
+    .navbar-core .u-cart .ic-enjoy1 a {
+        padding-left: 8px;
+        padding-right: 12px;
+    }
+    .bannerV3-top .bannerV3-item-text1 {
+        left: 28%;
+    }
+    .product-gird .col-xs-6 {
+        width: 100%;
+    }
+    .w-content .welcome .welcome-title h3 a {
+        font-size: 32px;
+    }
+    .w-content .welcome .welcome-title {
+        margin-bottom: 15px;
+    }
+    .w-content .welcome .welcome-text {
+        margin-top: 25px;
+    }
+    .welcome-text p {
+        font-size: 13px;
+    }
+    #footer .footer-desc {
+        padding-right: 15px;
+    }
+    .footer-list li {
+        width: 100%;
+    }
+    /*-------------------------------------
+              HOME PAGE 2
+    --------------------------------------*/
+    
+    .fashion-pd1-img .fashion-pd1-text p {
+        letter-spacing: 0;
+    }
+    .fashion-pd1-img .fashion-pd1-text a {
+        font-size: 45px;
+    }
+    .fashion-newcollec1-text1 a,
+    .fashion-newcollec1-text2 a {
+        font-size: 22px;
+    }
+    .box-product__top {
+        height: 250px;
+    }
+    .iconBoxV2 .service {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .slide-show-text2 h2 {
+        font-size: 36px !important;
+    }
+    /*-------------------------------------
+              HOME PAGE 3
+    --------------------------------------*/
+    
+    .bannerV3-bottom-content a {
+        font-size: 26px;
+    }
+    .bannerV3-bottom-content p {
+        font-size: 14px;
+    }
+    .bannerV3-bottom-content1 a {
+        font-size: 26px;
+    }
+    .bannerV3-bottom-content1 p {
+        font-size: 14px;
+    }
+    /*-------------------------------------
+             PAGE 404
+    --------------------------------------*/
+    
+    .title-404 {
+        font-size: 28px;
+    }
+    .desc-404 {
+        width: 100%;
+    }
+    /*-------------------------------------
+             BLOG DETAIL
+    --------------------------------------*/
+    
+    .detail-comment-item {
+        padding-left: 10px;
+        border-left: 0;
+    }
+    .detail-comments-content .user-img {
+        width: 50px;
+        height: 50px;
+    }
+    .detail-comment-item:before {
+        display: none;
+    }
+    .comments-img img {
+        margin-bottom: 10px;
+    }
+    /*-------------------------------------
+              CONTACT
+    --------------------------------------*/
+    
+    #map {
+        height: 250px;
+    }
+    /*-------------------------------------
+              FAQ
+    --------------------------------------*/
+    
+    .accordion {
+        padding: 12px 10px;
+    }
+    /*-------------------------------------
+              PORTFOLIO
+    --------------------------------------*/
+    
+    .portfolio-content .element-item {
+        width: 100%;
+    }
+    /*-------------------------------------
+            SHOP DETAIL FULLWIDTH
+    --------------------------------------*/
+    
+    .detail-fullwidth .slider-nav .slick-slide {
+        padding: 10px 2px;
+    }
+    /*-------------------------------------
+            SHOP LIST SIDEBAR
+    --------------------------------------*/
+    
+    .product-list-image {
+        width: 100%;
+        display: block;
+    }
+    .product-list-text {
+        width: 100%;
+        display: block;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /*-------------------------------------
+              HOME PAGE 1
+    --------------------------------------*/
+    
+    .header-menu .u-cart .ic-enjoy {
+        display: none;
+    }
+    .header-menu .u-cart .ic-enjoy a,
+    .header-menu .u-cart .ic-enjoy1 a {
+        border: none;
+    }
+    .navbar-core .u-cart .u-shop-cart {
+        display: none;
+    }
+    .header-menu .navbar-core .u-cart {
+        padding-right: 0;
+        padding-top: 24px;
+    }
+    .bannerV3-top .bannerV3-item-text p {
+        letter-spacing: 1px;
+    }
+    .bannerV3-top .bannerV3-item-text1 {
+        top: 45%;
+    }
+    .w-content .welcome .welcome-title h3 a {
+        font-size: 27px;
+    }
+    .welcome-text p {
+        font-size: 12px;
+    }
+    .articles span {
+        display: block;
+    }
+    .fashion-newcollec1-text2 {
+        right: 40%;
+    }
+    /*-------------------------------------
+              HOME PAGE 2
+    --------------------------------------*/
+    
+    .fashion-newcollec1-text1 a,
+    .fashion-newcollec1-text2 a {
+        font-size: 19px;
+    }
+    .fashion-pd1-img .fashion-pd1-text button {
+        padding: 4px 24px;
+    }
+    .fashion-pd1-img .fashion-pd1-text h3 {
+        padding-bottom: 25px;
+    }
+    .fashion-pd1-img .fashion-pd1-text a {
+        font-size: 21px;
+    }
+    .box-product__top {
+        height: 330px;
+    }
+    .slide-show-text2 h2 {
+        font-size: 25px !important;
+    }
+    /*-------------------------------------
+              HOME PAGE 3
+    --------------------------------------*/
+    
+    .bannerV3-bottom-content {
+        top: 19%;
+    }
+    .bannerV3-bottom-content1 {
+        top: 15%;
+    }
+}

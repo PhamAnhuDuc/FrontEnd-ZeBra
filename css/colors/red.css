@@ -1,0 +1,202 @@
+.color-setting {
+	color: #f25e5e;
+}
+.color-setting:hover {
+	color: #f25e5e !important;
+}
+.active>.color-setting {
+	color: #f25e5e !important;
+}
+.pages-item a:hover i {
+	color: #f25e5e;
+}
+.pages-item.active>a:after {
+	background: #f25e5e;
+	opacity: 1;
+}
+.pages-item>a:hover:after {
+	background: #f25e5e;
+}
+.btn-setting {
+	background: #f25e5e;
+	color: #FFF;
+}
+.btn-setting:hover, .btn-setting:focus {
+	background: #FFF;
+	color: #f25e5e;
+}
+.bg-setting {
+	background-color: #f25e5e !important;
+}
+.sidebar-price span {
+	background: #f25e5e !important;
+}
+.btn-success.active.focus{
+	background-color: #f25e5e !important;
+	border-color: #f25e5e !important;
+}
+.btn-success.active{
+	background-color: #f25e5e !important;
+	border-color: #f25e5e !important;
+}
+.bd-color-setting {
+	border-color: #f25e5e !important;
+}
+.bd-color-setting:hover {
+	border-color: #f25e5e !important;
+}
+.detail-border .slick-current>.bd-color-setting {
+	border: 1px solid #f25e5e;
+}
+.detail-navtab .nav>li>a:hover {
+	border-bottom: 2px solid #f25e5e;
+}
+.detail-navtab .nav>li.active>a {
+	border-bottom: 2px solid #f25e5e;
+}
+.sidebar-tags .tags-list li a:hover {
+	border-color: #f25e5e;
+}
+.bd-color-setting {
+	border-color: #f25e5e;
+}
+.bd-color-setting:hover {
+	border-color: #f25e5e; !important;
+}
+.readmore a:hover {
+	color: #212121 !important;
+}
+.buy-theme:hover {
+	background: #f25e5e;
+	border-color: #f25e5e;
+	color: #FFF;
+}
+.nav-faq>li.active>a,
+.nav-faq>li.active>a:focus,
+.nav-faq>li.active>a:hover {
+	border-bottom:2px solid #f25e5e;
+}
+.nav-faq>li>a:focus, .nav-faq>li>a:hover{
+	border-bottom:2px solid #f25e5e;
+}
+.header-menu .navbar-core .navbar-menu .menu-child a i {
+	color: #f25e5e;
+}
+.header-menu .u-cart .u-shop-cart:hover i {
+	color: #f25e5e;
+}
+.header-menu .u-cart .u-shop-cart .qt {
+	background: #f25e5e;
+}
+.hr-42 {
+	border: 3px solid #f25e5e;
+}
+.follow-button button:hover {
+	background: #f25e5e;
+	border-color: #f25e5e;
+}
+.footer-mid i {
+	color: #f25e5e;
+}
+.footer-mid li:hover a {
+	color: #f25e5e;
+}
+.service i {
+	color: #f25e5e;
+}
+.input-sub-bt:hover,
+.input-sub-bt:active:focus,
+.input-sub-bt:active:hover
+{
+	background: #f25e5e;
+	border-color: #f25e5e;
+}
+.header-menu .u-cart .ic-enjoy a:hover, .header-menu .u-cart .ic-enjoy1 a:hover {
+color: #f25e5e;
+}
+.bannerV3-top .bannerV3-item-text1 a:hover{
+	color: #f25e5e;
+}
+.bannerV3-top .bannerV3-item-text1 button {
+	color: #f25e5e;
+}
+.bannerV3-top .bannerV3-item-text1 button:hover{ 
+	 background: #f25e5e;
+	 border-color: #f25e5e;
+}
+.w-content2 .group-right h3 a:hover{
+	color: #f25e5e;
+}
+.w-content2 .group-right h4 {
+	color: #f25e5e;
+}
+.header-menu .navbar-menu .dropdown .dropdown-menu-panel .shop-menu1 a i {
+	color: #f25e5e;
+}
+.header-menu .navbar-core .navbar-menu .dropdown:hover > a {
+	color: #f25e5e;
+}
+.header-menu .navbar-core .navbar-menu >li >a:hover {
+	color: #f25e5e;
+}
+.mini-cart .wd-cart-item .p-content h3:hover .p-content-title {
+	color: #f25e5e;
+
+}
+.mini-setting .wd-setting-wrap .wd-setting-content > ul > li:hover > a{
+	color: #f25e5e;
+}
+.mini-setting .country:hover .country-name a{
+	color: #f25e5e !important;
+}
+.mini-setting .money a:hover{
+	color:#f25e5e !important;
+}
+.search {
+	background: #f25e5e;
+}
+.w-content .welcome .welcome-title h3 a:hover{
+	color: #f25e5e;
+}
+.footer-note a:hover{
+	color: #f25e5e;
+}
+.sign-up:hover{
+	color:#f25e5e;
+}
+.slide-show-text2 h3{
+	color: #f25e5e;
+}
+.service a:hover{
+	color: #f25e5e;
+}
+.w-content2 .group-right button:hover{
+ 	color: #f25e5e;
+}
+.w-content2 .group-right button:hover i{
+	color: #f25e5e;
+}
+.bannerV3-bottom-content1 a:hover,
+.bannerV3-bottom-content a:hover{
+	color: #f25e5e;
+}
+.btn-search:hover,.btn-search:focus, .btn-search:active{
+	color:#f25e5e;
+}
+.contact-social a:hover{
+	color:#f25e5e;
+}
+.faq-title:hover{
+	color:#f25e5e;
+}
+.header-menu .navbar-menu .dropdown .dropdown-menu-panel .shop-menu-product .shop-menu-content h3:hover a {
+	color: #f25e5e;
+}
+#bttop{
+	border:2px solid #f25e5e;
+	background: #f25e5e;
+}
+#bttop:hover{
+	color: #f25e5e;
+	background: #FFF;
+}
